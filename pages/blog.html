@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blog</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+
+<header class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 flex justify-between items-center px-8 py-3 sm: flex-wrap">
+    <a href="../index.html">
+    <img src="../img/logo.png" alt="Лабиринт души" class="hidden sm:block sm:h-15 w-15 rounded-full mt-2 mb-2">
+    </a>
+    <nav class="text-base font-bold text-white sm:text-2xl space-x-6">
+        <a href="../pages/services.html" class=""> Услуги</a>
+        <a href="#" class=""> Блог</a>
+        <a href="../pages/contacts.html" class=""> Контакты</a>
+        <a href="../pages/faq.html" class=""> FAQ</a>
+    </nav>
+</header>
+
+
+
+
+<main class="relative min-h-screen overflow-auto">
+    <video autoplay muted loop playsinline class="absolute top-0 left-0 w-full h-full object-cover z-0">
+        <source src="/img/dark-buildings.mp4" type="video/mp4">
+        Ваш браузер не поддерживает видео.
+    </video>
+
+    <section class="relative z-10 max-w-6xl mx-auto px-6 py-16 text-gray-100">
+        <h1 class="text-4xl font-bold text-center mb-12">Блог «Откровения Лабиринта»</h1>
+        <p class="text-lg text-center mb-12 text-yellow-300">
+            Здесь вы найдёте вдохновляющие статьи, разборы практик и эзотерические наблюдения, которые помогут понять себя глубже.
+        </p>
+
+        <div class="grid md:grid-cols-3 gap-8">
+            <article class="bg-gray-800 p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                <h2 class="text-xl font-semibold text-yellow-400 mb-2">Что такое Матрица Судьбы?</h2>
+                <p class="text-gray-300 mb-4">Как числа от 1 до 22 могут раскрыть твою суть и кармические задачи. Подробный разбор метода.</p>
+                <a href="#post1" class="text-yellow-300 hover:underline">Читать далее →</a>
+            </article>
+
+            <article class="bg-gray-800 p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                <h2 class="text-xl font-semibold text-yellow-400 mb-2">Психоматрица Пифагора: формула личности</h2>
+                <p class="text-gray-300 mb-4">Какие качества скрыты в вашей дате рождения? Психоматрица объяснит многое!</p>
+                <a href="#post2" class="text-yellow-300 hover:underline">Читать далее →</a>
+            </article>
+
+            <article class="bg-gray-800 p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                <h2 class="text-xl font-semibold text-yellow-400 mb-2">Как задать вопрос Таро правильно</h2>
+                <p class="text-gray-300 mb-4">Чтобы карты дали точный ответ, важно правильно сформулировать запрос. Рассказываю — как.</p>
+                <a href="#post3" class="text-yellow-300 hover:underline">Читать далее →</a>
+            </article>
+        </div>
+
+        <div class="text-center mt-16">
+            <a href="../pages/contacts.html" class="bg-yellow-400 text-gray-900 font-semibold px-6 py-3 rounded-xl hover:bg-yellow-300 transition">
+                Хочу обсудить свою ситуацию
+            </a>
+        </div>
+    </section>
+
+
+
+
+
+</main>
+
+
+
+
+
+<footer class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 flex flex-col md:flex-row justify-between items-center px-6 py-4 text-center md:text-left">
+    <h4 class="text-yellow-400 text-xl font-bold mb-2 md:mb-0"> Одесса, Украина</h4>
+    <p class="text-white text-xl space-x-6 mt-3 mb-3"> &copy; 2025. All rights reserved. </p>
+</footer>
+
+
+</body>
+</html>
